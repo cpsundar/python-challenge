@@ -1,4 +1,3 @@
-# First we'll import the os module
 # This will allow us to create file paths across operating systems
 import os
 
@@ -6,7 +5,7 @@ import os
 import csv
 
 csvpath = os.path.join('..', 'PyBank', 'Resources', 'budget_data.csv')
-outputpath = os.path.join('..', 'PyBank', 'Resources', 'output_data.txt')
+outputpath = os.path.join('..', 'PyBank', 'Resources', 'budget_data_result.txt')
 
 'Variables to be calculated'
 total_no_months = 0
